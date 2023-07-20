@@ -6,11 +6,35 @@
 
 /* DEBUG */
 
+header {
 
+  width: 100%;
+  background-color: blue;
+}
 
-
+footer {
+  background-color: brown;
+}
+main {
+  background-color: aquamarine;
+}
 
 /* DEBUG END */
 
 
 /* HEADER */
+
+header {
+  height: 75px;
+}
+
+footer {
+  height: 80px;
+}
+
+main {
+  height: calc(100vh - 155px);
+  width: 100%;
+  overflow-y: scroll;
+  
+}
