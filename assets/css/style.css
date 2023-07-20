@@ -115,6 +115,7 @@ footer {
 
 .fa-chevron-up {
   font-size: 0.8rem;
+  padding-bottom: 25px;
 }
 .icon-col {
   display: flex;
@@ -153,13 +154,14 @@ footer {
   background-color: red;
 }
 
-.icon-col a:hover {
+.icon-col:hover a {
   color: #49c302;
   
 }
 
 .video-box:hover {
   cursor: pointer;
+
 }
 
 .video-box:hover span {
