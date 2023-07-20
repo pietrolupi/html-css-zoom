@@ -19,6 +19,12 @@ main {
   background-color: aquamarine;
 }
 
+.video-box {
+  border: 2px solid black;
+  height: 140px;
+  width: 240px;
+}
+
 /* DEBUG END */
 
 
@@ -33,8 +39,11 @@ footer {
 }
 
 main {
-  height: calc(100vh - 155px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px 0;
+  height: calc(100vh - 185px);
   width: 100%;
   overflow-y: scroll;
-  
 }
