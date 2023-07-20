@@ -14,34 +14,50 @@ body{
 header {
 
   width: 100%;
-  background-color: black;
+  
 }
 
-footer {
-  background-color: #222222;
-}
-main {
-  background-color: black;
-}
+
 
 .video-box {
-  border: 2px solid black;
+  
   height: 140px;
   width: 240px;
 }
 
 /* DEBUG END */
-
-
+/* GENERAL */
+a {
+  text-decoration: none;
+  color: white;
+  
+}
 /* HEADER */
 
 header {
   height: 75px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  background-color: black;
+  
 }
 
-footer {
-  height: 80px;
+header span {
+  color: white;
+  font-size: bold;
+  padding: 10px 5px;
+ 
 }
+
+header span a {
+  background-color:#4a4a4a;
+  padding: 4px 3px;
+  border-radius: 7px;
+}
+
+/* MAIN */
 
 main {
   display: flex;
@@ -52,6 +68,7 @@ main {
   height: calc(100vh - 185px);
   width: 100%;
   overflow-y: scroll;
+  background-color: black;
 }
 
 .video-box {
@@ -65,4 +82,11 @@ main {
   color: white;
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.316);
+}
+
+/* FOOTER */
+
+footer {
+  height: 80px;
+  background-color: #222222;
 }
